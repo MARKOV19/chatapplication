@@ -1,0 +1,36 @@
+.text-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .team-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .members{
+    display: flex;
+  }
+  .team-info{
+    display: flex;
+    flex-direction: column;
+  }
+  .last-seen{
+    font-size: small;
+    color: #a19e9e;
+  }
+  .actions>button{
+   border:none;
+   background-color:transparent;
+  }
+  .text-input input {
+    flex: 1;
+    border: none;
+    outline: none;
+  }
+  
+  .icon {
+    margin: 0 5px;
+  }
